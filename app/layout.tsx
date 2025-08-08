@@ -7,8 +7,8 @@ import Footer from '@/components/Footer'
 import MobileQuickCtas from '@/components/MobileQuickCtas'
 import { restaurantJsonLd } from '@/lib/seo'
 import Script from 'next/script'
-import { NextIntlClientProvider } from 'next-intl'
-import { getLocale, getMessages } from 'next-intl/server'
+// import { NextIntlClientProvider } from 'next-intl'
+// import { getMessages } from 'next-intl/server'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' })
 const fraunces = Fraunces({ subsets: ['latin'], display: 'swap', variable: '--font-fraunces' })
@@ -36,20 +36,14 @@ export const viewport: Viewport = {
   themeColor: '#596B3A',
 }
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const locale = await getLocale()
-  const messages = await getMessages()
-  const dir = ['ar', 'fa'].includes(locale) ? 'rtl' : 'ltr'
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={locale} dir={dir} className={`${inter.variable} ${fraunces.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${inter.variable} ${fraunces.variable}`} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-          <MobileQuickCtas />
-        </NextIntlClientProvider>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+        <MobileQuickCtas />
         <Analytics />
         <Script id="ld-restaurant" type="application/ld+json" strategy="afterInteractive">
           {JSON.stringify(restaurantJsonLd())}

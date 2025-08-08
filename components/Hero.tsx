@@ -2,10 +2,10 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
 import Link from 'next/link'
 import { useRef } from 'react'
-import { useTranslations } from 'next-intl'
+// import { useTranslations } from 'next-intl'
 
 export default function Hero() {
-  const t = useTranslations()
+  // const t = useTranslations()
   const ref = useRef<HTMLDivElement | null>(null)
   const { scrollY } = useScroll()
   const y = useTransform(scrollY, [0, 300], [0, -60])
@@ -37,7 +37,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-5xl font-heading max-w-2xl heading-decor"
           >
-            {t('hero.title')}
+A Taste of Kurdistan in Every Bite
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="mt-3 text-brown/80 max-w-xl"
           >
-            {t('hero.subtitle')}
+Halal Middle‑Eastern cuisine, wood‑fired grills, and warm hospitality in Suwanee.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 10 }}
@@ -54,13 +54,13 @@ export default function Hero() {
             className="mt-6 flex flex-wrap gap-3"
           >
             <Link href="/reservations" className="bg-olive text-cream px-5 py-2 rounded shadow">
-              {t('hero.reserve')}
+Reserve a Table
             </Link>
             <Link
               href="/order"
               className="bg-cream/90 border border-olive text-olive px-5 py-2 rounded"
             >
-              {t('hero.order')}
+Order Online
             </Link>
           </motion.div>
         </div>
