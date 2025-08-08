@@ -1,10 +1,17 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/api/catering/route": "app/api/catering/route.js",
+  "/api/reservations/route": "app/api/reservations/route.js",
   "/page": "app/page.js",
-  "/reservations/page": "app/reservations/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/tos/page": "app/tos/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/about/page": "app/about/page.js",
   "/catering/page": "app/catering/page.js",
   "/contact/page": "app/contact/page.js",
-  "/order/page": "app/order/page.js",
+  "/menu/page": "app/menu/page.js",
   "/gallery/page": "app/gallery/page.js",
-  "/menu/page": "app/menu/page.js"
+  "/order/page": "app/order/page.js",
+  "/reservations/page": "app/reservations/page.js"
 }

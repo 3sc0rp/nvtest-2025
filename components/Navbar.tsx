@@ -3,8 +3,10 @@ import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import LanguageSwitcher from './LanguageSwitcher'
 import OrderButtons from './OrderButtons'
+import { useTranslations } from 'next-intl'
 
 export default function Navbar() {
+  const t = useTranslations()
   const [scrolled, setScrolled] = useState(false)
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
@@ -23,12 +25,12 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/" className="font-heading text-xl">Nature Village</Link>
           <nav className="hidden md:flex items-center gap-5 text-sm">
-            <Link href="/menu">Menu</Link>
-            <Link href="/about">About</Link>
-            <Link href="/reservations">Reservations</Link>
-            <Link href="/catering">Catering</Link>
-            <Link href="/gallery">Gallery</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/menu">{t('nav.menu')}</Link>
+            <Link href="/about">{t('nav.about')}</Link>
+            <Link href="/reservations">{t('nav.reservations')}</Link>
+            <Link href="/catering">{t('nav.catering')}</Link>
+            <Link href="/gallery">{t('nav.gallery')}</Link>
+            <Link href="/contact">{t('nav.contact')}</Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">

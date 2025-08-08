@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import Section from '@/components/Section'
 import type { Metadata } from 'next'
+import GalleryClient from '@/components/GalleryClient'
 
 export const metadata: Metadata = {
   title: 'Gallery',
@@ -25,19 +25,8 @@ const images = [
 export default function GalleryPage() {
   return (
     <>
-      <Section id="gallery" title="Gallery" subtitle="A warm look into our kitchen">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          {images.map((src, idx) => (
-            <div key={idx} className="relative aspect-[4/3] overflow-hidden rounded-md">
-              <Image 
-                src={src} 
-                alt={`Delicious Middle Eastern cuisine at Nature Village - ${idx + 1}`} 
-                fill 
-                className="object-cover hover:scale-105 transition-transform duration-300" 
-              />
-            </div>
-          ))}
-        </div>
+      <Section id="gallery" title="Gallery" subtitle="A warm look into our kitchen" patterned>
+        <GalleryClient images={images} />
       </Section>
     </>
   )

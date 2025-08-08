@@ -1,0 +1,52 @@
+{
+  "nav.menu": "القائمة",
+  "nav.about": "من نحن",
+  "nav.reservations": "الحجز",
+  "nav.catering": "التموين",
+  "nav.gallery": "المعرض",
+  "nav.contact": "اتصل بنا",
+
+  "hero.title": "نَكهة كردستان في كل لقمة",
+  "hero.subtitle": "مأكولات شرق أوسطية حلال، مشاوي على النار، وضيافة دافئة في سوواني.",
+  "hero.reserve": "احجز طاولة",
+  "hero.order": "اطلب أونلاين",
+
+  "section.gallery": "المعرض",
+  "section.gallery.subtitle": "نظرة دافئة إلى مطبخنا",
+
+  "filters.search": "ابحث عن الأطباق...",
+  "filters.popular": "الأكثر شعبية",
+  "filters.vegetarian": "نباتي",
+  "filters.vegan": "نباتي صارم",
+  "filters.glutenfree": "خالٍ من الغلوتين",
+  "filters.spicy": "حار",
+  "filters.all": "كل الفئات",
+
+  "sort.label": "ترتيب",
+  "sort.popular": "الأكثر شعبية",
+  "sort.price": "السعر",
+  "sort.new": "الأحدث",
+
+  "reservations.title": "الحجز",
+  "reservations.subtitle": "احجز طاولتك",
+  "reservations.name": "الاسم",
+  "reservations.email": "البريد الإلكتروني",
+  "reservations.phone": "الهاتف",
+  "reservations.partySize": "عدد الأشخاص",
+  "reservations.date": "التاريخ",
+  "reservations.time": "الوقت المفضل",
+  "reservations.notes": "ملاحظات",
+  "reservations.submit": "إرسال الحجز",
+  "reservations.call": "تفضّل الاتصال؟",
+  "reservations.success": "تم استلام الحجز! سنرسل تأكيدًا قريبًا.",
+  "reservations.error": "حدث خطأ. الرجاء المحاولة مرة أخرى أو الاتصال بنا.",
+
+  "footer.navigate": "تصفح",
+  "footer.legal": "قانوني",
+  "footer.privacy": "الخصوصية",
+  "footer.terms": "الشروط",
+  "footer.newsletter": "النشرة",
+  "footer.join": "انضم",
+  "footer.email": "البريد الإلكتروني"
+}
+

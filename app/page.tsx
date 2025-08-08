@@ -12,10 +12,11 @@ import { organizationJsonLd } from '@/lib/seo'
 
 export default async function HomePage() {
   const popular = await getPopularItems(6)
+  // Note: using server component; translations applied on client components
   return (
     <>
       <Hero />
-      <Section id="order-cta" title="Reserve or Order" subtitle="Your table is waiting">
+      <Section id="order-cta" title="Reserve or Order" subtitle="Your table is waiting" patterned>
         <div className="flex flex-wrap gap-3">
           <OrderButtons
             sliceUrl={process.env['NEXT_PUBLIC_SLICE_URL'] || '#'}
@@ -25,7 +26,7 @@ export default async function HomePage() {
         </div>
       </Section>
       <FeaturedDishes items={popular} />
-      <Section id="story" title="Our Story" subtitle="100% Halal">
+      <Section id="story" title="Our Story" subtitle="100% Halal" patterned>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
