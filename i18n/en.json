@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "about": "About",
+    "reservations": "Reservations",
+    "catering": "Catering",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "A Taste of Kurdistan in Every Bite",
+    "reserve": "Reserve a Table",
+    "order": "Order Online"
+  },
+  "sections": {
+    "featured": "Featured Dishes",
+    "story": "Our Story",
+    "location": "Find Us",
+    "events": "Private Events & Catering",
+    "reviews": "What guests are saying"
+  }
+}
+
+

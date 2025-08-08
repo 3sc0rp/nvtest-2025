@@ -1,0 +1,19 @@
+{
+  "name": "Nature Village",
+  "address": "1365 Buford Hwy NW, Suwanee, GA 30024",
+  "phone": "(770) 555-0137",
+  "hoursSummary": "Mon–Thu 11–10, Fri–Sat 11–11, Sun 11–9",
+  "mapsUrl": "https://maps.google.com/?q=1365+Buford+Hwy+NW,+Suwanee,+GA+30024",
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.0!2d-84.0!3d34.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2sNature%20Village!5e0!3m2!1sen!2sus!4v1700000000000",
+  "reservations": {
+    "resy": "",
+    "opentable": "https://www.opentable.com/",
+    "sevenrooms": ""
+  },
+  "socials": {
+    "instagram": "https://instagram.com/",
+    "facebook": "https://facebook.com/"
+  }
+}
+
+

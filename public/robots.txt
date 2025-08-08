@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nature-village.example.com
+
+# Sitemaps
+Sitemap: https://nature-village.example.com/sitemap.xml

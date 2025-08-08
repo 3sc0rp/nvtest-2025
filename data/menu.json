@@ -1,0 +1,358 @@
+[
+  {
+    "id": "lamb-shank-mazrah",
+    "name": "Lamb Shank Mazrah",
+    "description": "Slow-braised lamb shank with saffron rice and roasted carrots",
+    "price": 26,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400&h=300&fit=crop&auto=format",
+    "category": "Mains",
+    "tags": ["popular", "gluten-free"],
+    "popularityScore": 0.95,
+    "allergens": ["dairy"]
+  },
+  {
+    "id": "mixed-grill-for-two",
+    "name": "Mixed Grill for Two",
+    "description": "Assortment of kebabs, chicken, lamb, and vegetables with rice",
+    "price": 42,
+    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop&auto=format",
+    "category": "Grill",
+    "tags": ["popular", "gluten-free"],
+    "popularityScore": 0.92
+  },
+  {
+    "id": "kurdish-dolma",
+    "name": "Kurdish Dolma",
+    "description": "Stuffed grape leaves with herbed rice and spices",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegetarian"],
+    "popularityScore": 0.8
+  },
+  {
+    "id": "knafeh",
+    "name": "Knafeh",
+    "description": "Shredded filo with sweet cheese, rose syrup, pistachios",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop&auto=format",
+    "category": "Desserts",
+    "tags": ["popular"],
+    "popularityScore": 0.85,
+    "allergens": ["nuts", "dairy", "gluten"]
+  },
+  {
+    "id": "saffron-rice-barberries",
+    "name": "Saffron Rice with Barberries",
+    "description": "Fragrant basmati with saffron and tart zereshk",
+    "price": 7,
+    "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegetarian", "gluten-free"],
+    "popularityScore": 0.75
+  },
+  {
+    "id": "fattoush",
+    "name": "Fattoush",
+    "description": "Crisp salad with sumac and toasted pita",
+    "price": 11,
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegetarian"],
+    "popularityScore": 0.6
+  },
+  {
+    "id": "baba-ganoush",
+    "name": "Baba Ganoush",
+    "description": "Smoky eggplant purée with tahini and lemon",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.7
+  },
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "description": "Creamy chickpeas, tahini, olive oil",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1571197119282-7c4ac8d69834?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.88
+  },
+  {
+    "id": "kebab-chicken",
+    "name": "Chicken Kebab",
+    "description": "Char-grilled marinated chicken skewer",
+    "price": 18,
+    "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop&auto=format",
+    "category": "Grill",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.7
+  },
+  {
+    "id": "kebab-lamb",
+    "name": "Lamb Kebab",
+    "description": "Ground lamb with herbs and spices",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop&auto=format",
+    "category": "Grill",
+    "tags": ["gluten-free", "popular"],
+    "popularityScore": 0.83
+  },
+  {
+    "id": "shawarma",
+    "name": "Beef Shawarma",
+    "description": "Slow-roasted beef, garlic sauce, pickles",
+    "price": 16,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&auto=format",
+    "category": "Mains",
+    "tags": ["popular"],
+    "popularityScore": 0.78
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel Plate",
+    "description": "Herbed chickpea fritters, tahini, salad",
+    "price": 14,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop&auto=format",
+    "category": "Vegan",
+    "tags": ["vegan", "popular"],
+    "popularityScore": 0.82
+  },
+  {
+    "id": "soup-lentil",
+    "name": "Red Lentil Soup",
+    "description": "Comforting soup with cumin and lemon",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.55
+  },
+  {
+    "id": "salad-tabbouleh",
+    "name": "Tabbouleh",
+    "description": "Parsley, bulgur, tomato, lemon",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1551782450-17144efb9c50?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegetarian"],
+    "popularityScore": 0.58
+  },
+  {
+    "id": "kofta",
+    "name": "Kofta Kebab",
+    "description": "Hand-formed beef and lamb with spices",
+    "price": 19,
+    "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=400&h=300&fit=crop&auto=format",
+    "category": "Grill",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.72
+  },
+  {
+    "id": "rice-saffron",
+    "name": "Saffron Rice",
+    "description": "Fragrant basmati with saffron",
+    "price": 6,
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegetarian", "gluten-free"],
+    "popularityScore": 0.65
+  },
+  {
+    "id": "salad-shirazi",
+    "name": "Shirazi Salad",
+    "description": "Cucumber, tomato, onion, herbs",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.5
+  },
+  {
+    "id": "baklava",
+    "name": "Baklava",
+    "description": "Layers of filo, nuts, honey",
+    "price": 6,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop&auto=format",
+    "category": "Desserts",
+    "tags": [],
+    "popularityScore": 0.7
+  },
+  {
+    "id": "tea",
+    "name": "Mint Tea",
+    "description": "Fresh mint leaves, lightly sweetened",
+    "price": 4,
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop&auto=format",
+    "category": "Drinks",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.6
+  },
+  {
+    "id": "coffee",
+    "name": "Cardamom Coffee",
+    "description": "Rich coffee perfumed with cardamom",
+    "price": 5,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop&auto=format",
+    "category": "Drinks",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.55
+  },
+  {
+    "id": "kebab-adana",
+    "name": "Adana Kebab",
+    "description": "Spicy minced lamb skewer",
+    "price": 19,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop&auto=format",
+    "category": "Grill",
+    "tags": ["spicy", "gluten-free"],
+    "popularityScore": 0.67
+  },
+  {
+    "id": "mains-mandi",
+    "name": "Chicken Mandi",
+    "description": "Yemeni-style spiced rice with roasted chicken",
+    "price": 21,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400&h=300&fit=crop&auto=format",
+    "category": "Mains",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.62
+  },
+  {
+    "id": "vegan-musaqa",
+    "name": "Vegan Musaqa",
+    "description": "Layered eggplant, tomato, chickpeas",
+    "price": 17,
+    "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?w=400&h=300&fit=crop&auto=format",
+    "category": "Vegan",
+    "tags": ["vegan"],
+    "popularityScore": 0.57
+  },
+  {
+    "id": "sides-labneh",
+    "name": "Labneh & Olive Oil",
+    "description": "Strained yogurt, za'atar, olive oil",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1571197119282-7c4ac8d69834?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegetarian", "gluten-free"],
+    "popularityScore": 0.54,
+    "allergens": ["dairy"]
+  },
+  {
+    "id": "starter-sambusa",
+    "name": "Beef Sambusa",
+    "description": "Crispy pastry filled with spiced beef",
+    "price": 11,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": [],
+    "popularityScore": 0.59
+  },
+  {
+    "id": "sides-pickles",
+    "name": "Mixed Pickles",
+    "description": "House pickled vegetables",
+    "price": 5,
+    "image": "https://images.unsplash.com/photo-1606755962773-d324e9a13086?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.45
+  },
+  {
+    "id": "mains-quzi",
+    "name": "Quzi",
+    "description": "Roasted lamb over spiced rice",
+    "price": 28,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400&h=300&fit=crop&auto=format",
+    "category": "Mains",
+    "tags": ["gluten-free", "popular"],
+    "popularityScore": 0.86
+  },
+  {
+    "id": "dessert-rose-pudding",
+    "name": "Rose Milk Pudding",
+    "description": "Silky rose-scented milk pudding",
+    "price": 7,
+    "image": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&h=300&fit=crop&auto=format",
+    "category": "Desserts",
+    "tags": [],
+    "popularityScore": 0.52
+  },
+  {
+    "id": "drinks-ayran",
+    "name": "Ayran",
+    "description": "Yogurt drink with salt",
+    "price": 4,
+    "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&h=300&fit=crop&auto=format",
+    "category": "Drinks",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.48,
+    "allergens": ["dairy"]
+  },
+  {
+    "id": "vegan-stuffed-eggplant",
+    "name": "Stuffed Eggplant",
+    "description": "Roasted eggplant stuffed with herbed rice",
+    "price": 16,
+    "image": "https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?w=400&h=300&fit=crop&auto=format",
+    "category": "Vegan",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.61
+  },
+  {
+    "id": "mains-lamb-chops",
+    "name": "Lamb Chops",
+    "description": "Grilled lamb chops with herbs",
+    "price": 32,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400&h=300&fit=crop&auto=format",
+    "category": "Mains",
+    "tags": ["gluten-free"],
+    "popularityScore": 0.74
+  },
+  {
+    "id": "starter-spicy-potatoes",
+    "name": "Batata Harra",
+    "description": "Spicy roasted potatoes with cilantro",
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1566554273541-37a9ca77b91b?w=400&h=300&fit=crop&auto=format",
+    "category": "Starters",
+    "tags": ["vegan", "gluten-free", "spicy"],
+    "popularityScore": 0.7
+  },
+  {
+    "id": "sides-bread",
+    "name": "Fresh Baked Bread",
+    "description": "Warm house bread",
+    "price": 3,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=400&h=300&fit=crop&auto=format",
+    "category": "Sides",
+    "tags": ["vegetarian"],
+    "popularityScore": 0.6
+  },
+  {
+    "id": "drinks-pomegranate-juice",
+    "name": "Pomegranate Juice",
+    "description": "Fresh-pressed",
+    "price": 6,
+    "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=400&h=300&fit=crop&auto=format",
+    "category": "Drinks",
+    "tags": ["vegan", "gluten-free"],
+    "popularityScore": 0.62
+  },
+  {
+    "id": "dessert-maamoul",
+    "name": "Ma'amoul Cookies",
+    "description": "Date-filled semolina cookies",
+    "price": 5,
+    "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop&auto=format",
+    "category": "Desserts",
+    "tags": [],
+    "popularityScore": 0.49
+  }
+]
+
+
