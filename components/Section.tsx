@@ -8,12 +8,20 @@ export default function Section({
   subtitle,
   children,
   patterned = false,
+  pattern,
+  patternIntensity = 'subtle',
+  framedHeading = false,
 }: {
   id?: string
   title?: string
   subtitle?: string
   children: React.ReactNode
+  /** Deprecated: use `pattern` */
   patterned?: boolean
+  /** Pattern variant */
+  pattern?: 'rug' | 'geom'
+  patternIntensity?: 'subtle' | 'soft' | 'bold'
+  framedHeading?: boolean
 }) {
   const content = (
     <motion.section
@@ -26,7 +34,7 @@ export default function Section({
     >
       <div className="container-grid">
         {(title || subtitle) && (
-          <div className="mb-8">
+          <div className={framedHeading ? 'mb-8 heading-frame' : 'mb-8'}>
             {title && <h2 className="text-2xl md:text-3xl font-heading">{title}</h2>}
             {subtitle && <p className="text-brown/70 mt-1">{subtitle}</p>}
           </div>
@@ -36,8 +44,13 @@ export default function Section({
     </motion.section>
   )
 
-  if (patterned) {
-    return <KurdishPatternBackground>{content}</KurdishPatternBackground>
+  const finalPattern = pattern ?? (patterned ? 'rug' : undefined)
+  if (finalPattern) {
+    return (
+      <KurdishPatternBackground variant={finalPattern} intensity={patternIntensity}>
+        {content}
+      </KurdishPatternBackground>
+    )
   }
   return content
 }

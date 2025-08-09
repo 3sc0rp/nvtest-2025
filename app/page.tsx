@@ -16,7 +16,7 @@ export default async function HomePage() {
   return (
     <>
       <Hero />
-      <Section id="order-cta" title="Reserve or Order" subtitle="Your table is waiting" patterned>
+      <Section id="order-cta" title="Reserve or Order" subtitle="Your table is waiting" pattern="geom" patternIntensity="subtle" framedHeading>
         <div className="flex flex-wrap gap-3">
           <OrderButtons
             sliceUrl={process.env['NEXT_PUBLIC_SLICE_URL'] || '#'}
@@ -26,7 +26,7 @@ export default async function HomePage() {
         </div>
       </Section>
       <FeaturedDishes items={popular} />
-      <Section id="story" title="Our Story" subtitle="100% Halal" patterned>
+      <Section id="story" title="Our Story" subtitle="100% Halal" pattern="rug" patternIntensity="soft" framedHeading>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 

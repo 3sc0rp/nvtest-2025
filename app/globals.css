@@ -8,6 +8,9 @@
   --color-terracotta: #C1704A;
   --color-brown: #3A2F2A;
   --color-cream: #FAF6EF;
+  --color-ruby: #8B1E3F;
+  --color-deepBlue: #1F3A5F;
+  --color-gold: #C7A46C;
 }
 
 html,
@@ -31,6 +34,43 @@ body {
   background-image: var(--rug-image, url('/images/patterns/rug.png'));
   opacity: 0.07;
   pointer-events: none;
+}
+
+/* Decorative carpet frame used for cards and headings */
+.carpet-frame {
+  position: relative;
+  border: 2px solid rgba(139, 30, 63, 0.35); /* ruby */
+  border-radius: 0.75rem;
+  background: linear-gradient(
+      rgba(199, 164, 108, 0.05),
+      rgba(199, 164, 108, 0.05)
+    ), #fff;
+}
+.carpet-frame::before,
+.carpet-frame::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 3px solid rgba(31, 58, 95, 0.35); /* deepBlue */
+  border-right: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+.carpet-frame::before {
+  top: -6px;
+  left: -6px;
+}
+.carpet-frame::after {
+  bottom: -6px;
+  right: -6px;
+  transform: rotate(225deg);
+}
+
+/* Framed heading helper */
+.heading-frame {
+  @apply carpet-frame px-4 py-3 bg-cream/70 border-olive/30;
 }
 
 /* focus styles */
